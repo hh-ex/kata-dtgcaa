@@ -1,5 +1,7 @@
 # Kata: Does this GIF contain an animation?
 
+[![Build Status](https://travis-ci.org/hh-ex/kata-dtgcaa.svg?branch=main)](https://travis-ci.org/hh-ex/kata-dtgcaa)
+
 The `Dtgcaa` module implements a GIF parser that takes a GIF data stream. The parser counts the images included in the stream until it either finds a second image (which means that the GIF is animated), or it reaches the end of the stream (which means that the GIF is not animated). It is implemented in a way that makes sure that it only takes as much data from the stream as is necessary for deciding whether the GIF is animated.
 
 ## Task
