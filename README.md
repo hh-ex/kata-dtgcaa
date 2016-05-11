@@ -11,3 +11,9 @@ Make sure that `Dtgcaa.animated/1` passes the tests and fulfills the following t
 ```elixir
     animated?(gif_data_stream :: Enumerable.t) :: boolean() | {:error, :no_gif | :incomplete_gif}
 ```
+
+## Helpful Resources
+
+If you haven't done so yet, you probably want to check out the documentation of the [`Stream`](http://elixir-lang.org/docs/stable/elixir/Stream.html) module as well as the [`Enumerable`](http://elixir-lang.org/docs/stable/elixir/Enumerable.html) protocol.
+
+In case you'd like to get some more background with regard to the `Enumerable` protocol, there's a great [blog post introducing Elixir's continuable enumerators](http://elixir-lang.org/blog/2013/12/11/elixir-s-new-continuable-enumerators/).
