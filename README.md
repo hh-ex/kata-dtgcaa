@@ -6,11 +6,15 @@ The `Dtgcaa` module implements a GIF parser that takes a GIF data stream. The pa
 
 ## Challenge
 
-Make sure that `Dtgcaa.animated/1` passes the tests and fulfills the following type specification:
+Make sure that `Dtgcaa.animated/1` passes the existing tests and fulfills the following type specification:
 
 ```elixir
     animated?(gif_data_stream :: Enumerable.t) :: boolean() | {:error, :no_gif | :incomplete_gif}
 ```
+
+## Hints
+
+The actual GIF parser is already complete, and there should be no need to modify any of the existing private functions. Basically, all that needs to be done is finding a correct way for feeding the GIF data stream into the existing parser. 
 
 ## Helpful Resources
 
