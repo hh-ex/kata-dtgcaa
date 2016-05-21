@@ -14,7 +14,7 @@ Make sure that `Dtgcaa.animated/1` passes the existing tests and fulfills the fo
 
 ## Hints
 
-The actual GIF parser is already complete, and there should be no need to modify any of the existing private functions. Basically, all that needs to be done is finding a correct way for feeding the GIF data stream into the existing parser. 
+The actual GIF parser is already complete for that purpose, and there should be no need to modify any of the existing private functions. Basically, what needs to be done is finding a correct way of feeding the GIF data stream into the existing parser. 
 
 ## Helpful Resources
 
